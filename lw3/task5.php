@@ -7,13 +7,12 @@ $fullPath = "data/" . $email . '.txt';
 if (file_exists($fullPath))
 {
   $lines = file($fullPath);
-}
-
-if ($lines)
-{
-  foreach ($lines as $line)
+  if ($lines)
   {
-   echo $line;
+    foreach ($lines as $line)
+    {
+     echo $line;
+    }
   }
 }
 
