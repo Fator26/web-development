@@ -34,8 +34,7 @@ function addPasswordUpper($passwordValue)
     }
     if ($upperCounter != 0)
         return (strlen($passwordValue) - $upperCounter) * 2;
-    else
-        return $upperCounter;
+    return $upperCounter;
 }
 
 function addPasswordLower($passwordValue)
@@ -48,8 +47,7 @@ function addPasswordLower($passwordValue)
     }
     if ($lowerCounter != 0)
         return (strlen($passwordValue) - $lowerCounter) * 2;
-    else
-        return $lowerCounter;
+    return $lowerCounter;
 }
 
 function subIfOnlySymbols($passwordValue)

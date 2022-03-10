@@ -1,23 +1,31 @@
 <?php
 header("Content-Type: text/plain");
 $identifierValue = getGetParameter('identifier');
-if ($identifierValue)
+if (is_null($identifierValue))
 {
-    $isSR3 = true;
-    $strLength = strlen($identifierValue);
-    $firstSymbol = $identifierValue{0};
-    if (!(ctype_alpha($firstSymbol)))
-        $isSR3 = false;
-    for ($i = 1; $i < $strLength; $i++)
-        if ((!ctype_alpha($identifierValue{$i})) && (!is_numeric($identifierValue{$i})))
-            $isSR3 = false;
+     echo "No identifier";
+}
+else
+{
+    $isSR3 = isIdentifier($identifierValue);
     if ($isSR3)
         echo "test on SR3 successful";
     else
         echo "test on SR3 failed";
 }
-else
-     echo "No identifier";
+
+function isIdentifier($identifier): bool
+{
+
+    $strLength = strlen($identifier);
+    $firstSymbol = $identifier{0};
+    if (!(ctype_alpha($firstSymbol)))
+        return false;
+    for ($i = 1; $i < $strLength; $i++)
+        if ((!ctype_alpha($identifier{$i})) && (!is_numeric($identifier{$i})))
+            return false;
+    return true;
+}
 
 function getGetParameter(string $name): ?string
 {
