@@ -1,0 +1,187 @@
+.button
+{
+    background-color: #05090C; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.header
+{
+
+}
+.logo
+{
+    font: 700 30.8354px/122.33% 'Montserrat', sans-serif;
+    letter-spacing: -0.045em;
+    color: #000000;
+}
+.text_extra
+{
+        color: #EE58B6;
+;
+}
+
+.menu-header
+{
+
+}
+
+.menu-header__navigation
+{
+
+}
+
+.menu-header__navigation_item
+{
+    border: none;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.menu-header__navigation_button
+{
+    padding: 19px 40px;
+}
+
+.main
+{
+
+}
+
+.about
+{
+
+}
+
+.about__description
+{
+
+}
+
+.about__description_logo
+{
+
+}
+
+.about__description_text
+{
+
+}
+
+.about__description_button
+{
+    padding: 19px 82.5px;
+}
+
+.about__image
+{
+
+}
+
+.about__image_src
+{
+
+}
+
+.row
+{
+
+}
+
+.row__column
+{
+
+}
+
+.item-row
+{
+
+}
+
+.item-row__icon
+{
+
+}
+
+.item-row__text
+{
+
+}
+
+.motivator
+{
+
+}
+
+.motivator__image
+{
+
+}
+
+.motivator__title
+{
+
+}
+
+.motivator__title_text
+{
+
+}
+
+.todo
+{
+
+}
+
+.todo__title
+{
+
+}
+
+.todo__title_text
+{
+
+}
+
+.todo__block
+{
+
+}
+
+.item-todo
+{
+
+}
+
+.item-todo__icon
+{
+
+}
+
+item-todo__text
+{
+
+}
+
+.footer
+{
+    background: #000;
+}
+
+.white-logo
+{
+    color: #fff;
+}
+
+.black-logo
+{
+    color: #000;
+}
+
