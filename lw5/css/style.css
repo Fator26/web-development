@@ -1,3 +1,8 @@
+.body
+{
+    width: 1920px;
+    height: 3565px;
+}
 .button
 {
     background-color: #05090C; /* Green */
@@ -6,23 +11,28 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    border-radius:  4.59px;
+    Font: 500 16px/100% Montserrat, sans-serif;
+    text-decoration: none;
+    color: #FFF;
 }
+
 
 .header
 {
 
 }
+
 .logo
 {
-    font: 700 30.8354px/122.33% 'Montserrat', sans-serif;
+    font: 700 30.8354px/122.33% Montserrat, sans-serif;
     letter-spacing: -0.045em;
     color: #000000;
 }
+
 .text_extra
 {
-        color: #EE58B6;
-;
+    color: #EE58B6;
 }
 
 .menu-header
@@ -37,17 +47,14 @@
 
 .menu-header__navigation_item
 {
-    border: none;
-    color: #000000;
-    text-align: center;
+    Font: 500 16px/1 Montserrat, sans-serif;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    color: #000;
 }
 
 .menu-header__navigation_button
 {
-    padding: 19px 40px;
+    padding: 19px 43px;
 }
 
 .main
@@ -67,32 +74,31 @@
 
 .about__description_logo
 {
-
+    Font: 600 100px/0.32 Montserrat, sans-serif;
 }
 
 .about__description_text
 {
+    Font: 400 26px/1.2 Roboto Condensed, sans-serif;
+    padding: 0px 0px 19px 0px;
 
 }
 
 .about__description_button
 {
-    padding: 19px 82.5px;
+    padding: 19px 85.5px;
 }
 
 .about__image
 {
-
+    height: 636.87px;
+    width: 762px;
 }
 
-.about__image_src
-{
-
-}
 
 .row
 {
-
+    background: #000;
 }
 
 .row__column
@@ -102,42 +108,53 @@
 
 .item-row
 {
-
+    
 }
 
 .item-row__icon
 {
-
+    height: 60px;
+    width: 60px;
+    padding: 16px;
 }
 
 .item-row__text
 {
-
+    color: #fff;
+    Font: 400 22px/120% Roboto Condensed, sans-serif;
 }
 
 .motivator
 {
+    padding-bottom: 95px;
 
 }
 
-.motivator__image
+.motivator-item__image
 {
-
+    width: 510px;px
+    height: 476px;
 }
 
-.motivator__title
+.motivator-item__title
 {
-
+  margin: 0px;  
 }
 
-.motivator__title_text
+.motivator-item__title_text
 {
+    margin: 25.97px;
+    Font: 500 48px/1.26 Montserrat, sans-serif;
+}
 
+.motivator-item__text
+{
+    Font: 400 18px/1.35 Roboto Condensed, sans-serif;
 }
 
 .todo
 {
-
+    padding-top: 0px;
 }
 
 .todo__title
@@ -147,37 +164,49 @@
 
 .todo__title_text
 {
-
+    Font: 500 48px/1 Montserrat, sans-serif;
 }
 
 .todo__block
 {
-
+    margin-top: 65px;
 }
 
 .item-todo
 {
-
+    background-color: #000;
+    height: 190px;
+    width: 358px;
+    border-radius: 7.36px;
+    margin: 30px;
 }
 
 .item-todo__icon
 {
+    padding: 32.36px 0px 23px 39.35px;
+    height: 48px;
+    width: 37.16px;
 
 }
 
-item-todo__text
+.item-todo__text
 {
-
+    padding-left: 40px;
+    Font: 400 18px/1.15 Roboto Condensed, sans-serif;
+    color: #fff;
 }
 
 .footer
 {
     background: #000;
+    height: 108px;
+    width: 1920px;
 }
 
 .white-logo
 {
     color: #fff;
+    padding: 35px 841px 35.31px 876px;
 }
 
 .black-logo
