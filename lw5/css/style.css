@@ -103,19 +103,20 @@
 
 .row__column
 {
-
+    height: 132px;
+    padding: 100px 0px 142px 393px;
 }
 
 .item-row
 {
-    
+
 }
 
 .item-row__icon
 {
     height: 60px;
     width: 60px;
-    padding: 16px;
+    padding: 16px 0px 16px 118px;
 }
 
 .item-row__text
