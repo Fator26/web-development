@@ -1,0 +1,209 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.button
+{
+    background-color: #05090C;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font: 500 16px/1 Montserrat, sans-serif;
+    color: #fff;
+}
+
+.text_extra
+{
+    color: #EE58B6;
+}
+
+.title
+{
+    margin: 26px;
+    font: 500 48px/1.26 Montserrat, sans-serif;
+}
+
+.header
+{
+    margin: 30px 103px 72px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo
+{
+    margin: 0;
+    padding: 0;
+}
+
+.menu
+{
+    display: flex;
+    align-items: center;
+}
+
+.navigation
+{
+    margin-top: 3px;
+}
+
+.navigation__item
+{
+    font: 500 16px/1 Montserrat, sans-serif;
+    text-decoration: none;
+    color: #000;
+    margin-left: 83px;
+}
+
+.navigation__button
+{
+    margin-left: 99px;
+    padding: 20px 42px;
+}
+
+.main
+{
+    margin-top: 73px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about
+{
+    margin: 194px 30px 5px 178px;
+}
+
+.about__title
+{
+    font: 600 100px/0.32 Montserrat, sans-serif;
+}
+
+.about__text
+{
+    font: 400 26px/1.2 Roboto Condensed, sans-serif;
+    margin: 66px 0 46px;
+    padding-right: 130px;
+}
+
+.about__button
+{
+    padding: 20px 84px;
+}
+
+.main__image
+{
+    margin-right: 188px;
+}
+
+.main-line
+{
+    background: #000;
+    margin-top: 63px;
+
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.container-item
+{
+
+}
+
+.container-item__icon
+{
+    display: flex;
+    
+}
+
+.container-item__text
+{
+    color: #fff;
+    text-align: center;
+    font: 400 22px/1.2 Roboto Condensed, sans-serif;
+}
+
+.motivator
+{
+
+}
+
+.motivator__image
+{
+
+}
+
+.motivator__title
+{
+
+}
+
+.motivator__text
+{
+    font: 400 18px/1.35 Roboto Condensed, sans-serif;
+}
+
+.todo-title
+{
+
+}
+
+.todo
+{
+
+}
+
+.todo__title
+{
+
+}
+
+.todo__block
+{
+
+}
+
+.todo-item
+{
+    background-color: #000;
+    height: 190px;
+    width: 358px;
+    border-radius: 7px;
+    margin: 30px;
+}
+
+.todo-item__image
+{
+    padding: 32px 0 23px 40px;
+    height: 48px;
+    width: 37px;
+}
+
+.todo-item__text
+{
+    padding-left: 40px;
+    font: 400 18px/1.15 Roboto Condensed, sans-serif;
+    color: #fff;
+}
+
+.footer
+{
+    background: #000;
+    height: 108px;
+}
+
+.footer__logo
+{
+    padding: 32px 876px;
+    width: 167px;
+    height: 48px;
+    text-align: center;
+    align-content: center;
+}
