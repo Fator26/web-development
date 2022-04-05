@@ -29,15 +29,11 @@
 
 .header
 {
-    margin: 29px 103px 70px 120px;
+    margin: 30px 103px 70px 120px;
     display: flex;
     justify-content: space-between;
 }
 
-.header__logo
-{
-
-}
 
 .menu
 {
@@ -47,7 +43,7 @@
 
 .navigation
 {
-    margin-top: 1px;
+    margin-top: 3px;
 }
 
 .navigation__item
@@ -59,9 +55,11 @@
 }
 
 .navigation__button
-{
+{   margin-right: 1px;
     margin-left: 99px;
+    margin-top: 1px;
     padding: 20px 42px;
+
 }
 
 .main
@@ -184,11 +182,6 @@
     text-align: center;
 }
 
-.blog
-{
-    width: 1920px;
-}
-
 .blog__creation
 {
     margin-top: 72px;
@@ -267,9 +260,6 @@
     color: #000000B2;;
 }
 
-
-
-
 .todo
 {
     margin-top: 38px;
@@ -277,11 +267,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.todo__title
-{
-
 }
 
 
@@ -355,7 +340,8 @@
 
 .footer__logo
 {
-    padding: 30px 878px 0;
+    padding-top: 29px;
+    padding-left: 878px;
     width: 167px;
     height: 48px;
     text-align: center;
