@@ -14,32 +14,35 @@ function stringToArray(str) {
 }
 
 function splitAndDoExpression(expression) {
-  let a, b;
+  let num1, num2;
 
-  b = readNewArray(expression);
-  if (Array.isArray(b)) b = splitAndDoExpression(b);
+  num2 = readValue(expression);
+  if (Array.isArray(num2)) num2 = splitAndDoExpression(num2);
 
-  a = readNewArray(expression);
-  if (Array.isArray(a)) a = splitAndDoExpression(a);
+  num1 = readValue(expression);
+  if (Array.isArray(num1)) num1 = splitAndDoExpression(num1);
 
-  if (a && b){
+
+  if (num1 && num2){
     if (expression[0] == '/'){
-      if (b != 0)
-        return a / b;
+      if (num2 != 0)
+        return num1 / num2;
       else {
         console.log("Division by 0!!!")
         return false;
       }
     }
-    if (expression[0] == '*') return a * b;
-    if (expression[0] == '-') return a - b;
-    if (expression[0] == '+') return a + b;
+    if (expression[0] == '*') return num1 * num2;
+    if (expression[0] == '-') return num1 - num2;
+    if (expression[0] == '+') return num1 + num2;
   }
+
   console.log("Invalid expression.");
   return false;
 }
 
-function readNewArray(arr) {
+function readValue(arr) {
+  // console.log(arr);
   let returnedArr = [];
   let bracketCounter = 0;
   let arraySize;
