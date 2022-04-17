@@ -10,7 +10,6 @@ function isPrimeNumber(n) {
     }
     else {
       console.log(n, 'is not number or array');
-      numberSet = [];
     }
     for (let i = 0; i < numberSet.length; i++ ) {
       isPrime = true;
